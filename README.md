@@ -25,7 +25,6 @@ Projede iki ana veri seti kullanılmaktadır:
    - `rating`: Kullanıcı tarafından verilen puan
    - `timestamp`: Derecelendirmenin yapıldığı zaman
 
-   Örnek veri:
 | user_id | item_id | rating | timestamp |
 |---------|---------|--------|-----------|
 | 0       | 50      | 5      | 881250949 |
@@ -36,7 +35,7 @@ Projede iki ana veri seti kullanılmaktadır:
 
 
 
-2. **Film Bilgileri:**
+1. **Film Bilgileri:**
 - `item_id`: Film kimliği
 - `title`: Filmlerin isimleri
 
