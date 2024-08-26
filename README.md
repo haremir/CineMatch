@@ -14,7 +14,6 @@ Bu proje, IMDB film puanlarına dayalı bir film tavsiye sistemi geliştirmeyi a
   - [Görselleştirmeler](#görselleştirmeler)
   - [Kurulum ve Kullanım](#kurulum-ve-kullanım)
   - [Yazarlar](#yazarlar)
-  - [Lisans](#lisans)
 
 ## Veri Setleri
 
@@ -27,12 +26,13 @@ Projede iki ana veri seti kullanılmaktadır:
    - `timestamp`: Derecelendirmenin yapıldığı zaman
 
    Örnek veri:
-user_id,item_id,rating,timestamp
-0,50,5,881250949
-0,172,5,881250949
-0,133,1,881250949
-196,242,3,881250949
-186,302,3,891717742
+| user_id | item_id | rating | timestamp |
+|---------|---------|--------|-----------|
+| 0       | 50      | 5      | 881250949 |
+| 0       | 172     | 5      | 881250949 |
+| 0       | 133     | 1      | 881250949 |
+| 196     | 242     | 3      | 881250949 |
+| 186     | 302     | 3      | 891717742 |
 
 
 
@@ -40,13 +40,13 @@ user_id,item_id,rating,timestamp
 - `item_id`: Film kimliği
 - `title`: Filmlerin isimleri
 
-Örnek veri:
-item_id,title
-1,Toy Story (1995)
-2,GoldenEye (1995)
-3,Four Rooms (1995)
-4,Get Shorty (1995)
-5,Copycat (1995)
+| item_id | title                        |
+|---------|------------------------------|
+| 1       | Toy Story (1995)             |
+| 2       | GoldenEye (1995)             |
+| 3       | Four Rooms (1995)            |
+| 4       | Get Shorty (1995)            |
+| 5       | Copycat (1995)               |
 
 
 ## Proje Adımları
@@ -101,8 +101,4 @@ pip install pandas numpy matplotlib scikit-learn
 
 ## Yazarlar
 
-- Harun Emirhan - [LinkedIn Profilim](https://www.linkedin.com/in/harunemirhan)
-
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır - [Lisans Dosyası](LICENSE)
+- Harun Emirhan - [LinkedIn Profilim](https://www.linkedin.com/in/harun-emirhan-bostanci-24144726b/)
