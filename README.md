@@ -11,7 +11,6 @@ Bu proje, IMDB film puanlarına dayalı bir film tavsiye sistemi geliştirmeyi a
   - [İçindekiler](#i̇çindekiler)
   - [Veri Setleri](#veri-setleri)
   - [Proje Adımları](#proje-adımları)
-  - [Görselleştirmeler](#görselleştirmeler)
   - [Kurulum ve Kullanım](#kurulum-ve-kullanım)
   - [Yazarlar](#yazarlar)
 
@@ -65,16 +64,6 @@ Projede iki ana veri seti kullanılmaktadır:
 - Kullanıcının seçtiği filme göre öneri yapılması
 - En yüksek benzerlik skorlarına sahip 10 film önerisi
 
-## Görselleştirmeler
-
-- **Korelasyon Grafiği:**
-![Korelasyon Grafiği](link-to-your-graph1.png)
-*Görsel 1: Film Korelasyon Grafiği*
-
-- **Film Oy Sayısı Grafiği:**
-![Film Oy Sayısı Grafiği](link-to-your-graph2.png)
-*Görsel 2: Film Oy Sayısı Grafiği*
-
 ## Kurulum ve Kullanım
 
 1. **Gereksinimler:**
@@ -91,11 +80,11 @@ pip install pandas numpy matplotlib scikit-learn
 3. **Projeyi Çalıştırma:**
 - Repo'yu klonlayın:
   ```
-  git clone https://github.com/harunemirhan/film-tavsiye-sistemi.git
+  git clone https://github.com/haremir/CineMatch
   ```
 - Ana dosyayı çalıştırın:
   ```
-  python main.py
+  python main.ipynb
   ```
 
 ## Yazarlar
